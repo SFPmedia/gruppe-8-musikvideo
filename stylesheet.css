@@ -20,6 +20,12 @@ h2 {
   font-family: 'Nanum Pen Script';
 }
 
+h3 {
+  color: yellow;
+  font-size: 50px;
+  font-family: 'Nanum Pen Script';
+}
+
 .intro {
   position: relative;
   margin: 0px;
@@ -69,6 +75,21 @@ h2 {
   border-bottom: 1px solid rgb(255,255,255);
 }
 
+.intro .merch_knap {
+  top: 0%;
+  position: absolute;
+  margin-left: 92%;
+  top: 80%;
+}
+
+.intro .holdet_knap {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  margin-left: 0px;
+  color: blue;
+  font-size: 150px;
+}
 
 .merch img {
   width: 25%;
