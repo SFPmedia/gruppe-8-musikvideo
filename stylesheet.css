@@ -2,7 +2,22 @@
 
 body {
   margin: 0px;
-  background-color: rgb(150,150,150);
+  background-color: rgb(125,125,125);
+}
+
+h1 {
+  float: left;
+  font-size: 40px;
+  font-family: 'Nanum Pen Script';
+  margin-right: 90%;
+  margin-top: 5%;
+}
+
+h2 {
+  margin-left: 90%;
+  float: right;
+  font-size: 30px;
+  font-family: 'Nanum Pen Script';
 }
 
 .intro {
@@ -52,4 +67,20 @@ body {
   color: rgb(255,255,255);
   border-top: 1px solid rgb(255,255,255);
   border-bottom: 1px solid rgb(255,255,255);
+}
+
+
+.merch img {
+  width: 25%;
+  height: 35%;
+  margin-left: 6%;
+  margin-top: 0%;
+}
+
+.holdet img {
+  float: left;
+  width: 35%;
+  height: 50%;
+  margin-left: 10%;
+  margin-top: 1%;
 }
