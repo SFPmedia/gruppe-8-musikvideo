@@ -24,6 +24,7 @@ h3 {
   color: yellow;
   font-size: 50px;
   font-family: 'Nanum Pen Script';
+  color: white;
 }
 
 .intro {
@@ -49,20 +50,20 @@ h3 {
 
 .ttikon {
   position: absolute;
-  top: 92.5%;
+  top: 97%;
   left: 1%;
   margin-left: 0px;
   color: blue;
-  font-size: 150px;
+  font-size: 100px;
 }
 
-.intro .fbikon {
+.fbikon {
   position: absolute;
-  top: 80%;
-  left: 9%;
+  top: 84%;
+  left: 7%;
   margin-left: 0px;
   color: blue;
-  font-size: 150px;
+  font-size: 100px;
 }
 
 .intro .tilfældig_tekst {
