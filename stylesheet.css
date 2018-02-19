@@ -47,11 +47,19 @@ h3 {
   margin-left: -250px;
 }
 
+.ttikon {
+  position: absolute;
+  top: 92.5%;
+  left: 1%;
+  margin-left: 0px;
+  color: blue;
+  font-size: 150px;
+}
+
 .intro .fbikon {
-  width: 500px;
   position: absolute;
   top: 80%;
-  left: 2%;
+  left: 9%;
   margin-left: 0px;
   color: blue;
   font-size: 150px;
