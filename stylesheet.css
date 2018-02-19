@@ -34,17 +34,14 @@ h3 {
   }
 
 .intro video {
+  display: none;
   width: 100%;
   border: 0px;
 }
 
 .intro img {
-  width: 500px;
-  position: absolute;
-  top: 50%;
-  margin-top: -169.5px;
-  left: 50%;
-  margin-left: -250px;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -118,4 +115,141 @@ h3 {
   height: 50%;
   margin-left: 10%;
   margin-top: 1%;
+}
+
+
+
+
+@media screen and (min-width: 1265px) {
+
+  body {
+    margin: 0px;
+    background-color: rgb(63,63,63);
+  }
+
+  h1 {
+    float: left;
+    font-size: 40px;
+    font-family: 'Nanum Pen Script';
+    margin-right: 90%;
+    margin-top: 5%;
+  }
+
+  h2 {
+    margin-left: 90%;
+    float: right;
+    font-size: 30px;
+    font-family: 'Nanum Pen Script';
+  }
+
+  h3 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Nanum Pen Script';
+  }
+
+  .intro {
+    position: relative;
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Nanum Pen Script';
+    }
+
+  .intro video {
+    display: block;
+    width: 100%;
+    border: 0px;
+  }
+
+  .intro img {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    margin-top: -169.5px;
+    left: 50%;
+    margin-left: -250px;
+  }
+
+
+
+
+
+  .ttikon {
+    position: absolute;
+    margin-top: -8%;
+    left: 1%;
+    margin-left: 0px;
+    color: blue;
+    font-size: 100px;
+  }
+
+  .fbikon {
+    position: absolute;
+    margin-top: -8%;
+    left: 8%;
+    margin-left: 0px;
+    color: blue;
+    font-size: 100px;
+  }
+
+
+
+  .intro .tilfældig_tekst {
+    position: absolute;
+    left: 1px;
+    bottom: 60px;
+    background-color: rgba(69,24,10,.8);
+    width: 100%;
+  }
+
+  .intro .tilfældig_tekst p {
+    font-size: 3em;
+    margin: 0;
+    padding: 10px 0px;
+    text-align: center;
+    color: rgb(255,255,255);
+    border-top: 1px solid rgb(255,255,255);
+    border-bottom: 1px solid rgb(255,255,255);
+  }
+
+  .intro .merch_knap {
+    top: 0%;
+    position: absolute;
+    margin-left: 92%;
+    top: 80%;
+  }
+
+  .intro .holdet_knap {
+    position: absolute;
+    top: 0%;
+    left: 2%;
+    margin-left: 0px;
+    color: blue;
+    font-size: 150px;
+  }
+
+  .merch img {
+    width: 25%;
+    height: 35%;
+    margin-left: 6%;
+    margin-top: 0%;
+  }
+
+  .holdet img {
+    float: left;
+    width: 35%;
+    height: 50%;
+    margin-left: 10%;
+    margin-top: 1%;
+  }
+
+
+
+
+
+
+
+
+
+
 }
