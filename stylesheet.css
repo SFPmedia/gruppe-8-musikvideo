@@ -16,7 +16,7 @@ h1 {
   font-size: 40px;
   font-family: 'Nanum Pen Script';
   margin-right: 90%;
-  margin-top: 30%;
+  margin-top: 70%;
 }
 
 h2 {
@@ -216,24 +216,6 @@ h3 {
   }
 
 
-
-  .intro .tilfældig_tekst {
-    position: absolute;
-    left: 1px;
-    bottom: 60px;
-    background-color: rgba(69,24,10,.8);
-    width: 100%;
-  }
-
-  .intro .tilfældig_tekst p {
-    font-size: 3em;
-    margin: 0;
-    padding: 10px 0px;
-    text-align: center;
-    color: rgb(255,255,255);
-    border-top: 1px solid rgb(255,255,255);
-    border-bottom: 1px solid rgb(255,255,255);
-  }
 
   .intro .merch_knap {
     position: absolute;
