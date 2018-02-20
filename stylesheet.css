@@ -238,7 +238,11 @@ h3 {
   .intro .merch_knap {
     position: absolute;
     right: -40px;
-    top: 84%;
+    top: 80%;
+  }
+
+  .intro .merch_knap h3 {
+    font-size: 60px;
   }
 
   .intro .holdet_knap {
@@ -248,6 +252,10 @@ h3 {
     margin-left: 0px;
     color: blue;
     font-size: 150px;
+  }
+
+  .intro .holdet_knap h3 {
+    font-size: 60px;
   }
 
   .merch img {
