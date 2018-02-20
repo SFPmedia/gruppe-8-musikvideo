@@ -16,11 +16,11 @@ h1 {
   font-size: 40px;
   font-family: 'Nanum Pen Script';
   margin-right: 90%;
-  margin-top: 5%;
+  margin-top: 30%;
 }
 
 h2 {
-  margin-left: 90%;
+  margin-left: 51%;
   float: right;
   font-size: 30px;
   font-family: 'Nanum Pen Script';
@@ -28,7 +28,7 @@ h2 {
 
 h3 {
   color: white;
-  font-size: 50px;
+  font-size: 20px;
   font-family: 'Nanum Pen Script';
 }
 
@@ -46,30 +46,30 @@ h3 {
 }
 
 .intro img {
-  width: 50%;
-  margin-left: 29.5%;
-  margin-right: 29.5%;
-  padding-top: 18%;
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-top: 40%;
   padding-bottom: 14%;
 
 }
 
 .ttikon {
   position: absolute;
-  margin-top: -8%;
+  margin-top: 14%;
   left: 1%;
   margin-left: 0px;
   color: blue;
-  font-size: 100px;
+  font-size: 40px;
 }
 
 .fbikon {
   position: absolute;
-  margin-top: -8%;
-  left: 8%;
+  margin-top: 14%;
+  left: 10%;
   margin-left: 1%;
   color: blue;
-  font-size: 100px;
+  font-size: 40px;
 }
 
 
@@ -93,35 +93,46 @@ h3 {
 }
 
 .intro .merch_knap {
-  top: 0%;
   position: absolute;
-  right: -30px;
+  right: -14px;
   margin-right: 5%;
-  top: 80%;
+  top: 105%;
+}
+
+.intro .merch_knap h3 {
+  font-size: 30px;
 }
 
 .intro .holdet_knap {
   position: absolute;
+  margin-top: 0px;
+  height: 20px;
   top: 0%;
   left: 2%;
   margin-left: 0px;
   width: 80%;
   color: blue;
-  font-size: 150px;
+}
+
+.intro .holdet_knap h3 {
+  font-size: 30px;
+  height: 50px;
+  margin: 0px;
 }
 
 .merch img {
-  width: 25%;
-  height: 35%;
-  margin-left: 6%;
-  margin-top: 0%;
+
+  width: 50%;
+  height: 70%;
+  margin-left: 25%;
+  margin-top: 1%;
 }
 
 .holdet img {
-  float: left;
-  width: 35%;
-  height: 50%;
-  margin-left: 10%;
+
+  width: 50%;
+  height: 70%;
+  margin-left: 25%;
   margin-top: 1%;
 }
 
@@ -190,6 +201,7 @@ h3 {
     margin-top: -8%;
     left: 1%;
     margin-left: 0px;
+    margin-right: 1%;
     color: blue;
     font-size: 100px;
   }
@@ -198,7 +210,7 @@ h3 {
     position: absolute;
     margin-top: -8%;
     left: 8%;
-    margin-left: 0px;
+    margin-left: .2%;
     color: blue;
     font-size: 100px;
   }
