@@ -247,18 +247,21 @@ h3 {
     margin-top: 0%;
   }
 
+  .holdet {
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 5%;
+}
+
   .holdet img {
     float: left;
     width: 35%;
     height: 50%;
     margin-left: 10%;
     margin-top: 1%;
+    margin-right: 3%;
   }
-
-
-
-
-
 
 
 
