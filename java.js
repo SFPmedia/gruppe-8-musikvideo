@@ -13,4 +13,21 @@ $(document).ready(() => {
     $(this).hide();
   });
 
+
+
+  $(".merch h1").click(function(){
+    $(".fbikon").show();
+  });
+  $(".merch h1").click(function(){
+    $(".ytikon").show();
+  });
+  $(".merch h1").click(function(){
+    $(".intro img").show();
+  });
+  $(".merch h1").click(function(){
+    $(".intro h3").show();
+  });
+
+
+
 });
