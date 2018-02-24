@@ -11,6 +11,10 @@ body {
   margin: 0px
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   float: left;
   font-size: 40px;
@@ -59,7 +63,7 @@ h3 {
   margin-top: 14%;
   left: 1%;
   margin-left: 0px;
-  color: blue;
+  color: rgb(0,0,0);
   font-size: 40px;
 }
 
@@ -68,7 +72,7 @@ h3 {
   margin-top: 14%;
   left: 10%;
   margin-left: 1%;
-  color: blue;
+  color: rgb(0,0,0);
   font-size: 40px;
 }
 
@@ -93,6 +97,7 @@ h3 {
 }
 
 .intro .merch_knap {
+  display: none;
   position: absolute;
   right: -14px;
   margin-right: 5%;
@@ -104,6 +109,7 @@ h3 {
 }
 
 .intro .holdet_knap {
+  display: none;
   position: absolute;
   margin-top: 0px;
   height: 20px;
@@ -140,7 +146,35 @@ h3 {
   display: none;
 }
 
+.hide_show_knapper h4 {
+  display: none;
+}
 
+.burger-menu-toggle {
+  position: absolute;
+  top: 1%;
+  left: 85%;
+  margin-left: 1%;
+  color: rgb(0,0,0);
+  font-size: 40px;
+}
+
+.burger-menu-udfoldet {
+  display: none;
+  background-color: rgb(0,0,0);
+  position: absolute;
+  text-align: center;
+  top: 9%;
+  width: 23%;
+  margin-left:77%;
+  color: rgb(0,0,0);
+  font-size: 40px;
+}
+
+.burger-menu-udfoldet h3{
+  margin-top: .5%;
+  margin-bottom: .5%;
+}
 
 
 @media screen and (min-width: 1265px) {
@@ -174,6 +208,7 @@ a {
     font-size: 50px;
     font-family: 'Nanum Pen Script';
     text-decoration: none;
+    margin-bottom: 0px;
   }
 
   .intro {
@@ -225,16 +260,20 @@ a {
 
 
   .intro .merch_knap {
+    display: initial;
     position: absolute;
     right: -40px;
     top: 80%;
+    height: 130px;
   }
 
   .intro .merch_knap h3 {
     font-size: 60px;
+    margin-bottom: 0px;
   }
 
   .intro .holdet_knap {
+    display: initial;
     position: absolute;
     width: 180px;
     top: 0%;
@@ -281,6 +320,7 @@ a {
   left: 80%;
   margin-left: 0px;
 }
+
 .hide_show_knapper h5 {
   display: none;
   font-size: 51px;
@@ -292,5 +332,12 @@ a {
   margin-left: 0px;
 }
 
+.burger-menu-toggle {
+  display: none;
+}
+
+.burger-menu-udfoldet {
+  display: none;
+}
 
 }

@@ -39,4 +39,18 @@ $(document).ready(() => {
   $(".hide_show_knapper h5").click(function(){
     $(".hide_show_knapper h4").show();
   });
+
+
+
+
+
+  $(".burger-menu-toggle").click(function(){
+    $(".burger-menu-udfoldet").show();
+  });
+  $(".luk-menu h3").click(function(){
+    $(".burger-menu-udfoldet").hide();
+  });
+
+
+
 });
