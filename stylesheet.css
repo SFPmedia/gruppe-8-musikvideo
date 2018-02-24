@@ -136,6 +136,10 @@ h3 {
   margin-top: 1%;
 }
 
+.hide_show_knapper h5 {
+  display: none;
+}
+
 
 
 
@@ -145,6 +149,10 @@ h3 {
     margin: 0px;
     background-color: rgb(63,63,63);
   }
+
+a {
+  text-decoration: none;
+}
 
   h1 {
     float: left;
@@ -165,6 +173,7 @@ h3 {
     color: white;
     font-size: 50px;
     font-family: 'Nanum Pen Script';
+    text-decoration: none;
   }
 
   .intro {
@@ -194,15 +203,13 @@ h3 {
 
 
 
-
-
   .ytikon {
     position: absolute;
     margin-top: -8%;
     left: 1%;
     margin-left: 0px;
     margin-right: 1%;
-    color: blue;
+    color: rgb(75,75,75);
     font-size: 100px;
   }
 
@@ -211,7 +218,7 @@ h3 {
     margin-top: -8%;
     left: 8%;
     margin-left: .2%;
-    color: blue;
+    color: rgb(75,75,75);
     font-size: 100px;
   }
 
@@ -229,6 +236,7 @@ h3 {
 
   .intro .holdet_knap {
     position: absolute;
+    width: 180px;
     top: 0%;
     left: 2%;
     margin-left: 0px;
@@ -257,14 +265,32 @@ h3 {
   .holdet img {
     float: left;
     width: 35%;
-    height: 50%;
+    margin-left: 50%;
     margin-left: 10%;
     margin-top: 1%;
     margin-right: 3%;
   }
 
-
-
+.hide_show_knapper h4 {
+  display: initial;
+  font-size: 50px;
+  font-family: 'Nanum Pen Script';
+  color: white;
+  position: absolute;
+  top: -6%;
+  left: 80%;
+  margin-left: 0px;
+}
+.hide_show_knapper h5 {
+  display: none;
+  font-size: 51px;
+  font-family: 'Nanum Pen Script';
+  color: rgb(75,75,75);
+  position: absolute;
+  top: -8%;
+  left: 82.5%;
+  margin-left: 0px;
+}
 
 
 }

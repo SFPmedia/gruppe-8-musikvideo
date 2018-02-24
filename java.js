@@ -1,33 +1,42 @@
 $(document).ready(() => {
 
-  $(".intro img").click(function(){
+  $(".hide_show_knapper h4").click(function(){
     $(".ytikon").hide();
   });
-  $(".intro img").click(function(){
+  $(".hide_show_knapper h4").click(function(){
     $(".fbikon").hide();
   });
-  $(".intro img").click(function(){
+  $(".hide_show_knapper h4").click(function(){
     $(".intro h3").hide();
   });
-  $(".intro img").click(function(){
+  $(".hide_show_knapper h4").click(function(){
+    $(".intro img").hide();
+  });
+  $(".hide_show_knapper h4").click(function(){
     $(this).hide();
   });
+  $(".hide_show_knapper h4").click(function(){
+    $(".hide_show_knapper h5").show();
+  });
 
 
 
-  $(".merch h1").click(function(){
+  $(".hide_show_knapper h5").click(function(){
     $(".fbikon").show();
   });
-  $(".merch h1").click(function(){
+  $(".hide_show_knapper h5").click(function(){
     $(".ytikon").show();
   });
-  $(".merch h1").click(function(){
+  $(".hide_show_knapper h5").click(function(){
     $(".intro img").show();
   });
-  $(".merch h1").click(function(){
+  $(".hide_show_knapper h5").click(function(){
     $(".intro h3").show();
   });
-
-
-
+  $(".hide_show_knapper h5").click(function(){
+    $(this).hide();
+  });
+  $(".hide_show_knapper h5").click(function(){
+    $(".hide_show_knapper h4").show();
+  });
 });
