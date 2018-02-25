@@ -49,6 +49,22 @@ h3 {
   border: 0px;
 }
 
+.play-knap {
+  display: none;
+}
+
+.pause-knap {
+  display: none;
+}
+
+.muted-knap {
+  display: none;
+}
+
+.unmuted-knap {
+  display: none;
+}
+
 .intro img {
   width: 84%;
   margin-left: 8%;
@@ -224,6 +240,47 @@ a {
     border: 0px;
   }
 
+  .play-knap {
+    display: none;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 1%;
+    left: 93%;
+    margin-left: 0px;
+  }
+
+  .pause-knap {
+    display: initial;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 1%;
+    left: 93%;
+    margin-left: 0px;
+  }
+
+  .muted-knap {
+    display: initial;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 1%;
+    left: 96.5%;
+    margin-left: 0px;
+  }
+
+  .unmuted-knap {
+    display: none;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 1%;
+    left: 96.5%;
+    margin-left: 0px;
+  }
+
+
   .intro img {
     width: 500px;
     position: absolute;
@@ -316,7 +373,7 @@ a {
   font-family: 'Nanum Pen Script';
   color: white;
   position: absolute;
-  top: -6%;
+  top: 0%;
   left: 80%;
   margin-left: 0px;
 }
@@ -327,7 +384,7 @@ a {
   font-family: 'Nanum Pen Script';
   color: rgb(75,75,75);
   position: absolute;
-  top: -8%;
+  top: 2%;
   left: 82.5%;
   margin-left: 0px;
 }
@@ -339,5 +396,7 @@ a {
 .burger-menu-udfoldet {
   display: none;
 }
+
+
 
 }
