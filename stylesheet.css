@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
 
+/* Mobil Version */
 body {
   margin: 0px;
   background-color: rgb(63,63,63);
@@ -196,7 +197,7 @@ h3 {
 
 
 
-
+/* Tablet Version */
 @media screen and (min-width: 700px) {
 
   body {
@@ -411,18 +412,7 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* Desktop version */
 @media screen and (min-width: 1265px) {
 
   body {
