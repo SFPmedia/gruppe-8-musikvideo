@@ -21,7 +21,7 @@ h1 {
   font-size: 40px;
   font-family: 'Nanum Pen Script';
   margin-right: 90%;
-  margin-top: 70%;
+  margin-top: 50%;
 }
 
 h2 {
@@ -125,7 +125,7 @@ h3 {
   font-size: 30px;
 }
 
-.intro .holdet_knap {
+.intro .billeder_knap {
   display: none;
   position: absolute;
   margin-top: 0px;
@@ -137,7 +137,7 @@ h3 {
   color: blue;
 }
 
-.intro .holdet_knap h3 {
+.intro .billeder_knap h3 {
   font-size: 30px;
   height: 50px;
   margin: 0px;
@@ -151,12 +151,17 @@ h3 {
   margin-top: 1%;
 }
 
-.holdet img {
+.billeder {
+  margin-bottom: 2%;
+}
+
+.billeder img {
 
   width: 50%;
   height: 70%;
   margin-left: 25%;
   margin-top: 1%;
+  margin-bottom: 2%;
 }
 
 .hide_show_knapper h5 {
@@ -334,7 +339,7 @@ a {
     margin-bottom: 0px;
   }
 
-  .intro .holdet_knap {
+  .intro .billeder_knap {
     display: initial;
     position: absolute;
     width: 180px;
@@ -345,7 +350,7 @@ a {
     font-size: 150px;
   }
 
-  .intro .holdet_knap h3 {
+  .intro .billeder_knap h3 {
     font-size: 45px;
   }
 
@@ -356,14 +361,14 @@ a {
     margin-top: 0%;
   }
 
-  .holdet {
+  .billeder {
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
-  .holdet img {
+  .billeder img {
     float: left;
     width: 35%;
     margin-left: 50%;
@@ -433,7 +438,7 @@ a {
   }
 
   h2 {
-    margin-left: 90%;
+    margin-left: 86%;
     float: right;
     font-size: 30px;
     font-family: 'Nanum Pen Script';
@@ -549,7 +554,7 @@ a {
     margin-bottom: 0px;
   }
 
-  .intro .holdet_knap {
+  .intro .billeder_knap {
     display: initial;
     position: absolute;
     width: 180px;
@@ -560,7 +565,7 @@ a {
     font-size: 150px;
   }
 
-  .intro .holdet_knap h3 {
+  .intro .billeder_knap h3 {
     font-size: 60px;
   }
 
@@ -571,14 +576,14 @@ a {
     margin-top: 0%;
   }
 
-  .holdet {
+  .billeder {
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
   margin-bottom: 5%;
 }
 
-  .holdet img {
+  .billeder img {
     float: left;
     width: 35%;
     margin-left: 50%;
