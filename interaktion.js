@@ -5,7 +5,6 @@ var vid = $('#UHvideo');
 
 // Pause knap
 $(".pause-knap").click(function(){
-  //console.Log(vid) og vid.get(0) + html besked i consolen.
     $("#UHvideo").get(0).pause();
     $(this).hide();
     $(".play-knap").fadeIn(500);
